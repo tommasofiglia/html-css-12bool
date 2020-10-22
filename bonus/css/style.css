@@ -1,0 +1,23 @@
+[class*="col-"]{
+  background-color: white;
+  border: 1px solid grey;
+  height: 50px;
+}
+
+.background{
+  margin-top: 20px;
+  position: relative;
+}
+
+body{
+  background-color: rgb(120, 4, 18);
+}
+
+img{
+  width:250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  color: rgb(120, 4, 18);
+}
