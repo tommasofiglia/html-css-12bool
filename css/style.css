@@ -1,0 +1,19 @@
+[class*="col-"]{
+  background-color: pink;
+  border: 1px solid black;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.col-2.nested , .col-8.nested , .col-6.nested{
+  background-color: rgb(240, 127, 128);
+  border: 1px solid white;
+  height: 190px;
+  padding: 5px;
+}
+
+.col-6 .container{
+  padding: 4px;
+}
