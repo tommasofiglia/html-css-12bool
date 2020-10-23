@@ -17,3 +17,9 @@
 .col-6 .container{
   padding: 4px;
 }
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
